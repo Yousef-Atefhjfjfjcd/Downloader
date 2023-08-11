@@ -1,0 +1,46 @@
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+/* Center-align the container's contents */
+.center-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Center align text inside input */
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    min-height: 0vh;
+    min-width: 60vh;
+    background-color: #000000;
+    color:#ffffff;
+}
+
+/* Style the download button */
+.download-button {
+    padding: 10px 20px;
+    background-color: #2671a3;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #174869;
+}
